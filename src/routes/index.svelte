@@ -122,11 +122,21 @@
     border-right: 2px solid #222;
   }
 
-  .partners ul {
+  .partners > ul {
     list-style: none;
     display: flex;
+    flex: 4;
+    gap: 3rem;
+  }
+
+  .partners::after {
+    content: " ";
     flex: 1;
-    grid-gap: 3rem;
+  }
+
+  .partners > ul > li {
+    flex: 1;
+    text-align: center;
   }
 
   .music {
