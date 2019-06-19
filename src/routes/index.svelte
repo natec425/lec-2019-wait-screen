@@ -6,7 +6,6 @@
 
   onMount(() => {
     const interval = setInterval(() => {
-      console.log("hi");
       if (seconds === 0) {
         seconds = 60;
         minutes -= 1;
